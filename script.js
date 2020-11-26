@@ -5,9 +5,9 @@ const marks = [4, 5, 5, 3, 4, 5];
 // 1
 const studentGroups = function(students) {
 const group = [[students.slice(4)], 
-                [students.slice(1, 3)], 
-                [students[0], students[3]]
-               ];
+               [students.slice(1, 3)], 
+               [students[0], students[3]]
+              ];
 return group;
 }
 console.log(studentGroups(students));
