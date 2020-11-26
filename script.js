@@ -1,6 +1,7 @@
 const students = ['Олександр', 'Ігор', 'Олена', 'Іра', 'Олексій', 'Світлана'];
 const themes = ['Диференціальне рівняння', 'Теорія автоматів', 'Алгоритми і структура даних'];
 const marks = [4, 5, 5, 3, 4, 5];
+
 // 1
 const studentGroups = function(students) {
 const group = [[students.slice(4)], 
